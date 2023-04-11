@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  p {
+    text-align: justify;
+    color: white;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-bottom: 20px;
+  }
+  
+  video {
+    width: 80%;
+  }
+  

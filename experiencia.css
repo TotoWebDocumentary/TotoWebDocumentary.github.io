@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .text {
+    font-size: 36px;
+    text-align: center;
+    animation: appear 1s ease-in-out forwards;
+  }
+  
+  @keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .headphones {
+    display: block;
+    height: 200px;
+  }
+  
+  @keyframes show {
+    0% {
+      display: none;
+    }
+    50% {
+      display: none;
+    }
+    100% {
+      display: block;
+    }
+  }
+
+  body {
+    background-color: black;
+    overflow: hidden;
+  }
+
+  .text {
+    color: white;
+  }
